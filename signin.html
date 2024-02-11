@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hiring, job board, job portal, job posting, jobs marketplace, peopleperhour, proposals, sell services, upwork">
+<meta name="description" content="Freeio - Freelance Marketplace HTML Template">
+<meta name="CreativeLayers" content="ATFN">
+<!-- css file -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/ace-responsive-menu.css">
+<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="css/fontawesome.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" href="css/ud-custom-spacing.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive stylesheet -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Title -->
+<title>Campus GIG | A Platform to get connected with experts and learn new skills</title>
+<!-- Favicon -->
+<link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+<link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" />
+<!-- Apple Touch Icon -->
+<link href="images/apple-touch-icon-60x60.png" sizes="60x60" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-180x180.png" sizes="180x180" rel="apple-touch-icon">
+
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+
+<script src="js/app.js"></script>
+</head>
+<body class="bgc-thm4">
+<div class="wrapper ovh">
+  <div class="preloader"></div>
+  
+  <!-- Main Header Nav -->
+  <header class="header-nav nav-innerpage-style main-menu">
+    <!-- Ace Responsive Menu -->
+    <nav class="posr"> 
+      <div class="container-fluid posr menu_bdrt1">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-auto pe-0">
+            <div class="d-flex align-items-center">
+              <a class="header-logo bdrr1 pr30 pr5-xl" href="index.html"><img src="images/header-logo-dark.svg" alt="Header Logo"></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="hiddenbar-body-ovelay"></div>
+
+  <!-- Mobile Nav  -->
+  <div id="page" class="mobilie_header_nav stylehome1">
+    <div class="mobile-menu">
+      <div class="header bdrb1">
+        <div class="menu_and_widgets">
+          <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
+            <a class="mobile_logo" href="#"><img src="images/header-logo-dark.svg" alt=""></a>
+            <div class="right-side text-end">
+              <a class="" href="join.html">join</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="body_content">
+    
+  <!-- Our LogIn Area -->
+    <section class="our-login">
+      <div class="container">
+        <form name="registration_form" id="registration_form" method="post" action="#" enctype="multipart/form-data" >
+        <div class="row">
+          <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
+            <div class="main-title text-center">
+              <h2 class="title">Log In</h2>
+              <p class="paragraph">Give your visitor a smooth online experience with a solid UX design</p>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInRight" data-wow-delay="300ms">
+          <div class="col-xl-6 mx-auto">
+            <div class="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12">
+              <div class="mb30">
+                <h4>We're glad to see you again!</h4>
+                <p class="text">Don't have an account? <a class="text-thm" href="join.html">Sign Up!</a></p>
+              </div>
+                <div class="mb20">
+                  <label class="form-label fw600 dark-color" id="email">Email Address</label>
+                  <input type="email" id="email" class="form-control" placeholder="example@gmail.com">
+                </div>
+                <div class="mb15">
+                  <label class="form-label fw600 dark-color" id="password">Password</label>
+                  <input type="text" id="password" class="form-control" placeholder="*******">
+                </div>
+                <div class="checkbox-style1 d-block d-sm-flex align-items-center justify-content-between mb20">
+                  <label class="custom_checkbox fz14 ff-heading">Remember me
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <a class="fz14 ff-heading" href="#">Lost your password?</a>
+                </div>
+                <div class="d-grid mb20">
+                  <button class="ud-btn btn-thm" onclick="register()" type="submit" herf="profile_main.html">Log In <i class="fal fa-arrow-right-long"></i></button>
+                </div>
+              <!-- 
+                <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div>
+                <div class="d-md-flex justify-content-between">
+                <button class="ud-btn btn-fb fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-facebook-f pr10"></i> Continue Facebook</button>
+                <button class="ud-btn btn-google fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-google"></i> Continue Google</button>
+                <button class="ud-btn btn-apple fz14 fw400" type="button"><i class="fab fa-apple"></i> Continue Apple</button>
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Our Footer --> 
+    <section class="footer-style1 pt25 pb-0">
+      <div class="container">
+        <div class="row bb-white-light pb10 mb60">
+          <div class="col-md-7">
+            <div class="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
+              <a class="fz17 fw500 text-white mr15-md mr30" href="#">Terms of Service</a>
+              <a class="fz17 fw500 text-white mr15-md mr30" href="#">Privacy Policy</a>
+              <a class="fz17 fw500 text-white" href="#">Site Map</a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="social-widget text-center text-md-end">
+              <div class="social-style1">
+                <a class="text-white me-2 fw500 fz17" href="#">Follow us</a>
+                <a href="#"><i class="fab fa-facebook-f list-inline-item"></i></a>
+                <a href="#"><i class="fab fa-twitter list-inline-item"></i></a>
+                <a href="#"><i class="fab fa-instagram list-inline-item"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in list-inline-item"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="link-style1 mb-4 mb-sm-5">
+              <h5 class="text-white mb15">About</h5>
+              <div class="link-list">
+                <a href="#">Careers</a>
+                <a href="#">Press & News</a>
+                <a href="#">Partnerships</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Investor Relations</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="link-style1 mb-4 mb-sm-5">
+              <h5 class="text-white mb15">Categories</h5>
+              <ul class="ps-0">
+                <li><a href="#">Graphics & Design</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Writing & Translation</a></li>
+                <li><a href="#">Video & Animation</a></li>
+                <li><a href="#">Music & Audio</a></li>
+                <li><a href="#">Programming & Tech</a></li>
+                <li><a href="#">Data</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Lifestyle</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="link-style1 mb-4 mb-sm-5">
+              <h5 class="text-white mb15">Support</h5>
+              <ul class="ps-0">
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Trust & Safety</a></li>
+                <li><a href="#">Selling on Freeio</a></li>
+                <li><a href="#">Buying on Freeio</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-widget">
+              <div class="footer-widget mb-4 mb-sm-5">
+                <div class="mailchimp-widget">
+                  <h5 class="title text-white mb20">Subscribe</h5>
+                  <div class="mailchimp-style1">
+                    <input type="email" class="form-control" placeholder="Your email address">
+                    <button type="submit">Send</button>
+                  </div>
+                </div>
+              </div>
+              <div class="app-widget mb-4 mb-sm-5">
+                <h5 class="title text-white mb20">Apps</h5>
+                <div class="row mb-4 mb-lg-5">
+                  <div class="col-lg-12">
+                    <a class="app-list d-flex align-items-center mb10" href="#">
+                      <i class="fab fa-apple fz17 mr15"></i>
+                      <h6 class="app-title fz15 fw400 mb-0">iOS App</h6>
+                    </a>
+                    <a class="app-list d-flex align-items-center" href="#">
+                      <i class="fab fa-google-play fz15 mr15"></i>
+                      <h6 class="app-title fz15 fw400 mb-0">Android App</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container white-bdrt1 py-4">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="text-center text-lg-start">
+              <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© Freeio. 2023 CreativeLayers. All rights reserved.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer_bottom_right_btns text-center text-lg-end">
+              <ul class="p-0 m-0">
+                <li class="list-inline-item">
+                  <select class="selectpicker show-tick">
+                    <option>US$ USD</option>
+                    <option>Euro</option>
+                    <option>Pound</option>
+                  </select>
+                </li>
+                <li class="list-inline-item">
+                  <select class="selectpicker show-tick">
+                    <option>English</option>
+                    <option>Frenc</option>
+                    <option>Italian</option>
+                    <option>Spanish</option>
+                    <option>Turkey</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
+  </div>
+</div>
+<!-- Wrapper End --> 
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.mmenu.all.js"></script>
+<script src="js/ace-responsive-menu.js"></script>
+<script src="js/jquery-scrolltofixed-min.js"></script>
+<script src="js/wow.min.js"></script>
+<!-- Custom script for all pages -->
+<script src="js/script.js"></script>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getDatabase, get, ref, child} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+  import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+  
+  const firebaseConfig = {
+    apiKey: "AIzaSyBHOPYbFwidObJw-leMIVl71U4oevr8EU4",
+    authDomain: "campusgig-f2bd1.firebaseapp.com",
+    databaseURL: "https://campusgig-f2bd1-default-rtdb.firebaseio.com",
+    projectId: "campusgig-f2bd1",
+    storageBucket: "campusgig-f2bd1.appspot.com",
+    messagingSenderId: "676395751251",
+    appId: "1:676395751251:web:c5838fa29f94f0098cf3a6",
+    measurementId: "G-JDH7VMD2C8"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase();
+  const auth = getAuth(app);
+  const dbref = ref(db);
+
+  let email = document.getElementById('email');
+  let password = document.getElementById('password');
+  let SignInUser = evt => {
+    evt.preventDefault();
+    signInWithEmailAndPassword(auth, email.value, password.value)
+    .then((credentials)=>{
+      get(child(dbref, 'UserAuthlist/' + credentials.user.uid)).then((snapshot) => {
+          if(snapshot.exists){
+            sessionStorage.setItem("user-info", JSON.stringify)(
+              {
+                displayName: displayName.value
+              })}
+              sessionStorage.setItem("user-creds", JSON.stringify(credentials.user));
+              window.location.href = 'profile.html'
+      })
+    })
+    .catch((error)=>{
+      alert(error.message);
+      console.log(error.code);
+      console.log(error.message);
+    })
+  }
+  registration_form.addEventListener('submit', SignInUser);
+  
+</script>
+</body>
+</html>

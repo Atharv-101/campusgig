@@ -1,0 +1,118 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media only screen and (max-width:1700px) {
+}
+
+@media only screen and (max-width:1600px) {
+
+}
+
+@media only screen and (max-width:1500px) {
+
+}
+
+@media only screen and (max-width:1440px) {
+
+}
+
+@media only screen and (max-width:1400px) {
+
+}
+
+@media only screen and (max-width:1366px) {
+
+}
+
+/*  (min-width:1280px)+++ */
+@media only screen and (max-width:1280px) {
+
+}
+
+/*  (min-width:1200px)+++ */
+@media only screen and (min-width:1200px) {
+}
+
+/*  (max-width:1200px)+++ */
+@media only screen and (max-width:1200px) {
+
+}
+
+/* (min-width:992px) (max-width: 1199.98px) // Large devices (desktops, less than 1200px) */
+@media only screen and (max-width: 1199.98px) {/* ExTra Class Start*/
+
+}
+
+@media only screen and (max-width:992px) {
+
+}
+
+/* Medium devices (min-width:768px) (max-width: 991.98px) // (tablets, less than 992px) */
+@media only screen and (max-width:991px) {/* ExTra Class Start*/
+
+}
+
+@media only screen and (max-width:768px) {
+
+}
+
+/* Small devices (min-width: 576px) (max-width: 767.98px) // (landscape phones, less than 768px) */
+@media only screen and (max-width: 767.98px) {/* ExTra Class Start*/
+
+
+}
+
+@media only screen and (max-width:630px) {
+}
+
+@media only screen and (max-width: 580px) {
+}
+
+/* Extra small devices (min-width:361px) (max-width: 575.98px) // (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+
+}
+
+/* (min-width:361px) (max-width:520px) */
+@media only screen and (max-width:520px) {
+
+}
+
+/* (min-width:480px) (max-width:500px) */
+@media only screen and (max-width:500px) {
+
+}
+
+/* (min-width:361px) (max-width:479px) */
+@media only screen and (max-width:479px) {
+
+}
+
+@media only screen and (max-width:414px) {
+
+}
+
+@media only screen and (max-width:400px) {/* ExTra Class Start*/
+
+}
+
+/* (min-width:321px) (max-width:360px) */
+@media only screen and (max-width:360px) {
+
+}
+
+@media only screen and (max-width:340px) {
+
+}
+
+@media only screen and (max-width:320px) {
+
+}

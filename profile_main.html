@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <!-- Start of Async Drift Code -->
+    <script>
+      "use strict";
+      
+      !function() {
+        var t = window.driftt = window.drift = window.driftt || [];
+        if (!t.init) {
+          if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+          t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+          t.factory = function(e) {
+            return function() {
+              var n = Array.prototype.slice.call(arguments);
+              return n.unshift(e), t.push(n), t;
+            };
+          }, t.methods.forEach(function(e) {
+            t[e] = t.factory(e);
+          }), t.load = function(t) {
+            var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+            var i = document.getElementsByTagName("script")[0];
+            i.parentNode.insertBefore(o, i);
+          };
+        }
+      }();
+      drift.SNIPPET_VERSION = '0.3.1';
+      drift.load('26b234cudrd4');
+      </script>
+      <!-- End of Async Drift Code -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hiring, job board, job portal, job posting, jobs marketplace, peopleperhour, proposals, sell services, upwork">
+<meta name="description" content="Freeio - Freelance Marketplace HTML Template">
+<meta name="CreativeLayers" content="ATFN">
+<!-- css file -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/ace-responsive-menu.css">
+<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="css/fontawesome.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" href="css/ud-custom-spacing.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive stylesheet -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Title -->
+<title>Freeio - Freelance Marketplace HTML Template</title>
+<!-- Favicon -->
+<link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+<link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" />
+<!-- Apple Touch Icon -->
+<link href="images/apple-touch-icon-60x60.png" sizes="60x60" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-180x180.png" sizes="180x180" rel="apple-touch-icon">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<div class="wrapper ovh">
+  <div class="preloader"></div>
+  
+  <!-- Main Header Nav -->
+  <header class="header-nav nav-innerpage-style main-menu">
+   
+    <!-- Nav Bar starts -->
+    <!-- Ace Responsive Menu -->
+    <nav class="posr"> 
+      <div class="container-fluid posr menu_bdrt1">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-auto pe-0">
+            <div class="d-flex align-items-center">
+              <a class="header-logo bdrr1 pr30 pr5-xl" href="index.html"><img src="images/header-logo-dark.svg" alt="Header Logo"></a>
+              <div class="home1_style">
+                <div id="mega-menu">
+                  <a class="btn-mega fw500" href="#"><span class="pl30 pl10-xl pr5 fz15 vam flaticon-menu"></span> Categories</a>
+                  <ul class="menu ps-0">
+                    <li> <a class=" " href="#"> <span class="menu-icn flaticon-developer"></span> <span class="menu-title">Development & IT</span> </a>
+                    </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="d-flex align-items-center">
+              <!-- Responsive Menu Structure-->
+              <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                    <li> <a href="index.html"><span class="title">Home</span></a></li>
+                    <li> <a href="about.html"><span class="title">About</span></a></li>
+                    <li> <a href="service.html"><span class="title">Service</span></a></li>
+                    <li> <a href="page-mentor.html"><span class="title">Mentor</span></a></li>
+                    <li> <a href="hackathon.html"><span class="title">Hackathon</span></a></li>
+                    <li> <a href="colleges.html"><span class="title">Colleges</span></a></li>
+                    <li> <a href="page-freelancer.html"><span class="title">Freelancer</span></a></li>
+                  </ul>
+              </ul>
+              <a class="ud-btn btn-thm add-joining" href="profile.html">Edit Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Search Modal -->
+  <div class="search-modal">
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-xmark"></i></button>
+          </div>
+          <div class="modal-body">
+            <div class="popup-search-field search_area">
+              <input type="text" class="form-control border-0" placeholder="What service are you looking for today?">
+              <label><span class="far fa-magnifying-glass"></span></label>
+              <button class="ud-btn btn-thm" type="submit">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hiddenbar-body-ovelay"></div>
+
+  <!-- Mobile Nav  -->
+  <div id="page" class="mobilie_header_nav stylehome1">
+    <div class="mobile-menu">
+      <div class="header bdrb1">
+        <div class="menu_and_widgets">
+          <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
+            <a class="mobile_logo" href="#"><img src="images/header-logo-dark.svg" alt=""></a>
+            <div class="right-side text-end">
+              <a class="" href="profile.html">Edit Profile</a>
+              <a class="menubar ml30" href="#menu"><img src="images/mobile-dark-nav-icon.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="posr"><div class="mobile_menu_close_btn"><span class="far fa-times"></span></div></div>
+      </div>
+    </div>
+    <!-- /.mobile-menu -->
+    <nav id="menu" class="">
+      <ul>
+        <li> <a href="index.html"><span class="title">Home</span></a></li>
+        <li> <a href="about.html"><span class="title">About</span></a></li>
+        <li> <a href="service.html"><span class="title">Service</span></a></li>
+        <li> <a href="page-mentor.html"><span class="title">Mentor</span></a></li>
+        <li> <a href="hackathon.html"><span class="title">Hackathon</span></a></li>
+        <li> <a href="colleges.html"><span class="title">Colleges</span></a></li>
+        <li> <a href="page-freelancer.html"><span class="title">Freelancer</span></a></li>
+      </ul>
+        <!-- Only for Mobile View -->
+      </ul>
+    </nav>
+    <!-- Nav End -->
+
+  </div>
+
+  <div class="body_content">
+
+    <!-- Service Details -->
+    <section class="pt10 pb90 pb30-md">
+      <div class="container">
+        <div class="row wrap wow fadeInUp">
+          <div class="col-lg-8">
+            <div class="column">
+              <div class="cta-service-v1 freelancer-single-v1 pt60 pb60 bdrs16 position-relative overflow-hidden d-flex align-items-center">
+                <img class="left-top-img wow zoomIn" src="images/vector-img/left-top.png" alt="">
+                <img class="right-bottom-img wow zoomIn" src="images/vector-img/right-bottom.png" alt="">
+                <div class="row wow fadeInUp">
+                  <div class="col-xl-12">
+                    <div class="position-relative pl50 pl20-sm">
+                      <div class="list-meta d-sm-flex align-items-center">
+                        <a class="position-relative freelancer-single-style" href="#">
+                          <span class="online"></span>
+                          <img class="rounded-circle w-100 wa-sm mb15-sm" src="images/team/fl-3.png" alt="Freelancer Photo">
+                        </a>
+                        <div class="ml20 ml0-xs">
+                          <h5 class="title mb-1">Atharv Gangarde</h5>
+                          <p class="mb-0">UI/UX Designer</p>
+                          <p class="mb-0 dark-color fz15 fw500 list-inline-item ml15 mb5-sm ml0-xs"><i class="flaticon-place vam fz20 me-2"></i> India</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt30">
+                <div class="col-sm-6 col-xl-3">
+                  <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
+                    <div class="icon flex-shrink-0"><span class="flaticon-target"></span></div>
+                    <div class="details">
+                      <h5 class="title">Job Success</h5>
+                      <p class="mb-0 text">98%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                  <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
+                    <div class="icon flex-shrink-0"><span class="flaticon-goal"></span></div>
+                    <div class="details">
+                      <h5 class="title">Total Jobs</h5>
+                      <p class="mb-0 text">921</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                  <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
+                    <div class="icon flex-shrink-0"><span class="flaticon-fifteen"></span></div>
+                    <div class="details">
+                      <h5 class="title">Total Hours</h5>
+                      <p class="mb-0 text">1,499</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                  <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
+                    <div class="icon flex-shrink-0"><span class="flaticon-file-1"></span></div>
+                    <div class="details">
+                      <h5 class="title">In Queue Service</h5>
+                      <p class="mb-0 text">20</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-about">
+                <h4>Description</h4>
+                <p class="text mb30">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+                <p class="text mb30">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                <!-- <hr class="opacity-100 mb60 mt60">
+                <h4 class="mb30">Education</h4> -->
+                <!-- <div class="educational-quality">
+                  <div class="m-circle text-thm">M</div>
+                  <div class="wrapper mb40">
+                    <span class="tag">2012 - 2014</span>
+                    <h5 class="mt15">Bachlors in Fine Arts</h5>
+                    <h6 class="text-thm">Modern College</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                  </div>
+                  <div class="m-circle before-none text-thm">M</div>
+                  <div class="wrapper mb60">
+                    <span class="tag">2008 - 2012</span>
+                    <h5 class="mt15">Computer Science</h5>
+                    <h6 class="text-thm">Harvartd University</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                  </div>
+                </div> -->
+                <!-- <hr class="opacity-100 mb60">
+                <h4 class="mb30">Work & Experience</h4>
+                <div class="educational-quality">
+                  <div class="m-circle text-thm">M</div>
+                  <div class="wrapper mb40">
+                    <span class="tag">2012 - 2014</span>
+                    <h5 class="mt15">UX Designer</h5>
+                    <h6 class="text-thm">Dropbox</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                  </div>
+                  <div class="m-circle before-none text-thm">M</div>
+                  <div class="wrapper mb60">
+                    <span class="tag">2008 - 2012</span>
+                    <h5 class="mt15">Art Director</h5>
+                    <h6 class="text-thm">amazon</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                  </div>
+                </div> -->
+                <!-- <hr class="opacity-100 mb60">
+                <h4 class="mb30">Awards adn Certificates</h4>
+                <div class="educational-quality ps-0">
+                  <div class="wrapper mb40">
+                    <span class="tag">2012 - 2014</span>
+                    <h5 class="mt15">UI UX Design</h5>
+                    <h6 class="text-thm">Udemy</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum <br class="d-none d-lg-block"> primis in faucibus.</p>
+                  </div>
+                  <div class="wrapper mb60">
+                    <span class="tag">2008 - 2012</span>
+                    <h5 class="mt15">App Design</h5>
+                    <h6 class="text-thm">Google</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum <br class="d-none d-lg-block"> primis in faucibus.</p>
+                  </div>
+                </div>
+                <hr class="opacity-100 mb60">
+                <h4 class="mb30">Featured Services</h4>
+                <div class="row mb35">
+                  <div class="col-sm-6 col-xl-4">
+                    <div class="listing-style1">
+                      <div class="list-thumb">
+                        <img class="w-100" src="images/listings/g-1.jpg" alt="">
+                        <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+                      </div>
+                      <div class="list-content">
+                        <p class="list-text body-color fz14 mb-1">Web & App Design</p>
+                        <h6 class="list-title"><a href="page-services-single.html">I will design modern websites in figma or adobe xd</a></h6>
+                        <div class="review-meta d-flex align-items-center">
+                          <i class="fas fa-star fz10 review-color me-2"></i>
+                          <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                        </div>
+                        <hr class="my-2">
+                        <div class="list-meta mt15">
+                          <div class="budget">
+                            <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <hr class="opacity-100 mb60">
+                <div class="product_single_content mb60">
+                  <div class="mbp_pagination_comments">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="total_review mb30">
+                          <h4>80 Reviews</h4>
+                        </div>
+                        <div class="d-md-flex align-items-center mb30">
+                          <div class="total-review-box d-flex align-items-center text-center mb30-sm">
+                            <div class="wrapper mx-auto">
+                              <div class="t-review mb15">4.96</div>
+                              <h5>Exceptional</h5>
+                              <p class="text mb-0">3,014 reviews</p>
+                            </div>
+                          </div>
+                          <div class="wrapper ml60 ml0-sm">
+                            <div class="review-list d-flex align-items-center mb10">
+                              <div class="list-number">5 Star</div>
+                                <div class="progress">
+                                  <div class="progress-bar" style="width: 90%;" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              <div class="value text-end">58</div>
+                            </div>
+                            <div class="review-list d-flex align-items-center mb10">
+                              <div class="list-number">4 Star</div>
+                                <div class="progress">
+                                  <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              <div class="value text-end">20</div>
+                            </div>
+                            <div class="review-list d-flex align-items-center mb10">
+                              <div class="list-number">3 Star</div>
+                                <div class="progress">
+                                  <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              <div class="value text-end">15</div>
+                            </div>
+                            <div class="review-list d-flex align-items-center mb10">
+                              <div class="list-number">2 Star</div>
+                                <div class="progress">
+                                  <div class="progress-bar" style="width: 30%;" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              <div class="value text-end">2</div>
+                            </div>
+                            <div class="review-list d-flex align-items-center mb10">
+                              <div class="list-number">1 Star</div>
+                                <div class="progress">
+                                  <div class="progress-bar" style="width: 20%;" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              <div class="value text-end">1</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bsp_reveiw_wrt">
+                  <h6 class="fz17">Add a Review</h6>
+                  <p class="text">Your email address will not be published. Required fields are marked *</p>
+                  <h6>Your rating of this product</h6>
+                  <div class="d-flex">
+                    <i class="fas fa-star review-color"></i>
+                    <i class="far fa-star review-color ms-2"></i>
+                    <i class="far fa-star review-color ms-2"></i>
+                    <i class="far fa-star review-color ms-2"></i>
+                    <i class="far fa-star review-color ms-2"></i>
+                  </div>
+                  <form class="comments_form mt30 mb30-md">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="mb-4">
+                          <label class="fw500 fz16 ff-heading dark-color mb-2">Comment</label>
+                          <textarea class="pt15" rows="6" placeholder="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="mb20">
+                          <label class="fw500 ff-heading dark-color mb-2">Name</label>
+                          <input type="text" class="form-control" placeholder="Ali Tufan">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="mb20">
+                          <label class="fw500 ff-heading dark-color mb-2">Email</label>
+                          <input type="email" class="form-control" placeholder="creativelayers088">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="checkbox-style1 d-block d-sm-flex align-items-center justify-content-between mb20">
+                          <label class="custom_checkbox fz15 ff-heading">Save my name, email, and website in this browser for the next time I comment.
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                        </div>
+                        <a href="#" class="ud-btn btn-thm">Send<i class="fal fa-arrow-right-long"></i></a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Footer --> 
+    <section class="footer-style1 pt25 pb-0">
+      <div class="container">
+        <div class="row bb-white-light pb10 mb60">
+          <div class="col-md-7">
+            <div class="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
+              <a class="fz17 fw500 text-white mr15-md mr30" href="#">Terms of Service</a>
+              <a class="fz17 fw500 text-white mr15-md mr30" href="#">Privacy Policy</a>
+              <a class="fz17 fw500 text-white" href="#">Site Map</a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="social-widget text-center text-md-end">
+              <div class="social-style1">
+                <a class="text-white me-2 fw500 fz17" href="#">Follow us</a>
+                <a href="#"><i class="fab fa-facebook-f list-inline-item"></i></a>
+                <a href="#"><i class="fab fa-twitter list-inline-item"></i></a>
+                <a href="#"><i class="fab fa-instagram list-inline-item"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in list-inline-item"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="link-style1 mb-4 mb-sm-5">
+              <h5 class="text-white mb15">About</h5>
+              <div class="link-list">
+                <a href="#">Careers</a>
+                <a href="#">Press & News</a>
+                <a href="#">Partnerships</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Investor Relations</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="link-style1 mb-4 mb-sm-5">
+              <h5 class="text-white mb15">Categories</h5>
+              <ul class="ps-0">
+                <li><a href="#">Graphics & Design</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Writing & Translation</a></li>
+                <li><a href="#">Video & Animation</a></li>
+                <li><a href="#">Music & Audio</a></li>
+                <li><a href="#">Programming & Tech</a></li>
+                <li><a href="#">Data</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Lifestyle</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="link-style1 mb-4 mb-sm-5">
+              <h5 class="text-white mb15">Support</h5>
+              <ul class="ps-0">
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Trust & Safety</a></li>
+                <li><a href="#">Selling on Freeio</a></li>
+                <li><a href="#">Buying on Freeio</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-widget">
+              <div class="footer-widget mb-4 mb-sm-5">
+                <div class="mailchimp-widget">
+                  <h5 class="title text-white mb20">Subscribe</h5>
+                  <div class="mailchimp-style1">
+                    <input type="email" class="form-control" placeholder="Your email address">
+                    <button type="submit">Send</button>
+                  </div>
+                </div>
+              </div>
+              <div class="app-widget mb-4 mb-sm-5">
+                <h5 class="title text-white mb20">Apps</h5>
+                <div class="row mb-4 mb-lg-5">
+                  <div class="col-lg-12">
+                    <a class="app-list d-flex align-items-center mb10" href="#">
+                      <i class="fab fa-apple fz17 mr15"></i>
+                      <h6 class="app-title fz15 fw400 mb-0">iOS App</h6>
+                    </a>
+                    <a class="app-list d-flex align-items-center" href="#">
+                      <i class="fab fa-google-play fz15 mr15"></i>
+                      <h6 class="app-title fz15 fw400 mb-0">Android App</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container white-bdrt1 py-4">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="text-center text-lg-start">
+              <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© Freeio. 2023 CreativeLayers. All rights reserved.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer_bottom_right_btns text-center text-lg-end">
+              <ul class="p-0 m-0">
+                <li class="list-inline-item">
+                  <select class="selectpicker show-tick">
+                    <option>US$ USD</option>
+                    <option>Euro</option>
+                    <option>Pound</option>
+                  </select>
+                </li>
+                <li class="list-inline-item">
+                  <select class="selectpicker show-tick">
+                    <option>English</option>
+                    <option>Frenc</option>
+                    <option>Italian</option>
+                    <option>Spanish</option>
+                    <option>Turkey</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
+  </div>
+</div>
+<!-- Wrapper End --> 
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.mmenu.all.js"></script>
+<script src="js/ace-responsive-menu.js"></script>
+<script src="js/jquery-scrolltofixed-min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/owl.js"></script> 
+<script src="js/scrollbalance.js"></script> 
+<!-- Custom script for all pages --> 
+<script src="js/script.js"></script>
+<script>
+$(function() {
+  var cols = $('.wrap .column');
+  var enabled = true;
+  var scrollbalance = new ScrollBalance(cols, {
+    minwidth: 1199
+  });
+  // bind to scroll and resize events
+  scrollbalance.bind();
+});
+</script>
+</body>
+
+<!-- Mirrored from creativelayers.net/themes/freeio-html/page-freelancer-single-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Feb 2024 18:56:55 GMT -->
+</html>
