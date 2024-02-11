@@ -1,1 +1,1 @@
-# campusgig
+# CampusGIG
